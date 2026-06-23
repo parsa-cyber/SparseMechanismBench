@@ -1,5 +1,7 @@
 # SparseMechanismBench
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2008178.svg)](https://doi.org/10.5281/zenodo.2008178)
+
 **SparseMechanismBench** is a reproducible mechanism-isolation study testing whether sparse local Hebbian/Oja-style plasticity is sufficient for task-discriminative learning and continual-learning stability.
 
 ## Paper
@@ -7,6 +9,8 @@
 The public manuscript is available here:
 
 **SparseMechanismBench_final_public.pdf**
+
+Archived DOI: https://doi.org/10.5281/zenodo.2008178
 
 ## Research Question
 
@@ -47,6 +51,14 @@ pip install -r SparseMechanismBench_public/requirements.txt
 ```
 
 Then run the relevant experiment scripts from the `SparseMechanismBench_public/` directory.
+
+## Citation
+
+If you use this project, cite the archived release:
+
+```text
+Fatehi, P. (2026). SparseMechanismBench: Why Sparse Local Plasticity Is Not Enough for Task-Discriminative Learning (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.2008178
+```
 
 ## Author
 
