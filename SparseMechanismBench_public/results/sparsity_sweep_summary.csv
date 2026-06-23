@@ -1,0 +1,2 @@
+dataset,model,active_frac,accuracy_mean,accuracy_std,sparsity_mean,sparsity_std,train_time_s_mean,n
+mnist,Sparse Oja,0.05,0.1732,0.01744348015735392,0.953125,0.0,10.839171767234802,4

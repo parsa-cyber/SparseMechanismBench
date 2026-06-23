@@ -1,0 +1,11 @@
+phase,component,status,evidence,notes
+1,Reproducibility package,completed,repository files present,Full local repo package created; public GitHub/OSF link still must be added by user.
+2,Standard CNN baseline,completed,results/standard_cnn_summary.csv,LeNet-style CNN added and summarized from existing completed runs.
+3,Homeostatic Sparse Oja,completed,results/homeostatic_sparse_oja_summary.csv,Adaptive threshold local-learning variant included.
+4,Sparsity sweep,completed,results/sparsity_sweep_subset_summary.csv,Fixed-subset mechanism-isolation sweep.
+5,Replay sweep,completed-subset,results/replay_sweep_subset_summary.csv,Fixed-subset replay sweep; not state-of-the-art continual learning.
+6,Statistical tests,completed,results/statistical_tests_summary.csv,Five-seed paired tests from available benchmark CSVs; 10-seed extension remains recommended.
+7,Frozen feature readout,digits_completed_mnist_fashion_blocked,results/frozen_readout_summary.csv,Digits completed; MNIST/Fashion-MNIST blocked because uploaded ZIP does not include IDX data.
+8,Representation geometry,digits_completed_mnist_fashion_blocked,results/representation_geometry_summary.csv,Digits completed; MNIST/Fashion-MNIST blocked because uploaded ZIP does not include IDX data.
+9,Expanded related work,completed,mechanism-isolation manuscript,Added biological local learning, sparse coding, credit assignment, and replay subsections.
+10,Reward-modulated Hebbian / feedback alignment hybrid,planned,NA,Not implemented; future work.

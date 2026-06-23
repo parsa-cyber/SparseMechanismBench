@@ -1,0 +1,13 @@
+dataset,split,model,active_frac,accuracy_mean,accuracy_std,sparsity_mean,sparsity_std,n
+fashion_mnist,fixed_10k_train_2k_test,Oja,1.0,0.5153000000000001,0.030608168844280782,0.19389921875,0.017355621535311064,5
+fashion_mnist,fixed_10k_train_2k_test,Sparse Oja,0.05,0.22970000000000002,0.07437647477529437,0.953125,0.0,5
+fashion_mnist,fixed_10k_train_2k_test,Sparse Oja,0.1,0.28990000000000005,0.053129464518287775,0.8984375,0.0,5
+fashion_mnist,fixed_10k_train_2k_test,Sparse Oja,0.2,0.3222,0.05317762687446668,0.796875,0.0,5
+fashion_mnist,fixed_10k_train_2k_test,Sparse Oja,0.4,0.3114,0.06850722589625126,0.6015625,0.0,5
+fashion_mnist,fixed_10k_train_2k_test,Sparse Oja,0.6,0.3742,0.05706014370819616,0.3984375,0.0,5
+mnist,fixed_10k_train_2k_test,Oja,1.0,0.7965000000000001,0.013149144458861195,0.18809218750000004,0.027318313235577145,5
+mnist,fixed_10k_train_2k_test,Sparse Oja,0.05,0.3506,0.04233485561567442,0.953125,0.0,5
+mnist,fixed_10k_train_2k_test,Sparse Oja,0.1,0.4755,0.06484982652251277,0.8984375,0.0,5
+mnist,fixed_10k_train_2k_test,Sparse Oja,0.2,0.6258999999999999,0.06995741561836029,0.796875,0.0,5
+mnist,fixed_10k_train_2k_test,Sparse Oja,0.4,0.7241,0.03449115828730603,0.6015625,0.0,5
+mnist,fixed_10k_train_2k_test,Sparse Oja,0.6,0.7767999999999999,0.029793623478858684,0.3984375,0.0,5

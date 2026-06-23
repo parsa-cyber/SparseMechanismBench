@@ -1,0 +1,5 @@
+dataset,model,active_frac,seed,accuracy,activation_sparsity,train_time_s,epochs,hidden
+mnist,Sparse Oja,0.05,0,0.1746,0.953125,11.33429503440857,1,128
+mnist,Sparse Oja,0.05,1,0.186,0.953125,10.647138118743896,1,128
+mnist,Sparse Oja,0.05,2,0.1879,0.953125,10.68579888343811,1,128
+mnist,Sparse Oja,0.05,3,0.1443,0.953125,10.689455032348633,1,128

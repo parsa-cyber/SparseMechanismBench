@@ -1,0 +1,24 @@
+Reproducibility check
+=====================
+Datasets: scikit-learn digits, MNIST IDX files, Fashion-MNIST IDX files.
+Seeds: 0, 1, 2, 3, 4 for completed full benchmark runs.
+No test-set tuning was performed.
+All reported numerical results must be traceable to CSV files in results/ and plotting scripts in this repository.
+
+Main commands:
+python validate_datasets.py
+python train_classification.py --model standard_cnn --datasets digits mnist fashion_mnist --seeds 0 1 2 3 4 --epochs 2
+python train_classification.py --model homeostatic_sparse_oja --datasets digits mnist fashion_mnist --seeds 0 1 2 3 4 --epochs 2
+python run_sparsity_sweep_subset.py
+python run_replay_sweep_subset.py
+python finalize_upgrade.py
+python plot_results.py
+
+Software versions captured below:
+Python: 3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]
+numpy: 2.3.5
+pandas: 2.2.3
+scikit-learn: 1.8.0
+scipy: 1.17.0
+matplotlib: 3.10.8
+torch: 2.10.0+cpu

@@ -1,0 +1,4 @@
+dataset,model,seed_mean,seed_std,seed_n,accuracy_mean,accuracy_std,accuracy_n,train_time_s_mean,train_time_s_std,train_time_s_n,param_count_mean,param_count_std,param_count_n,activation_sparsity_mean,activation_sparsity_std,activation_sparsity_n,epochs_mean,epochs_std,epochs_n
+digits,homeostatic_sparse_oja,2.0,1.4142135623730951,5,0.8150000000000001,0.01830806339253787,5,0.8700689315795899,0.05204823182983736,5,9482.0,0.0,5,0.8984375,0.0,5,5.0,0.0,5
+fashion_mnist,homeostatic_sparse_oja,2.0,1.4142135623730951,5,0.24653999999999998,0.11094320348718979,5,27.156066989898683,1.9712922363981482,5,101642.0,0.0,5,0.8984375,0.0,5,2.0,0.0,5
+mnist,homeostatic_sparse_oja,2.0,1.4142135623730951,5,0.16824,0.01937489096743514,5,27.62324538230896,0.6538784074070566,5,101642.0,0.0,5,0.8984375,0.0,5,2.0,0.0,5
